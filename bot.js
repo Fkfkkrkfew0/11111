@@ -1,33 +1,4 @@
-const Discord = require("discord.js");
-const client = new Discord.Client();
-var prefix = "#";
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setStatus("dnd")
-});
-
-client.on("message", async message => {
-        if(!message.channel.guild) return;
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  const moment = require("moment");  
+const moment = require("moment");  
 const fs = require("fs");      
 const dateFormat = require('dateformat');
 const Canvas = require("canvas");
@@ -116,15 +87,3 @@ message.channel.send(`**:moneybag: | ${message.author.username}, has transferrer
 }
  
       });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
